@@ -46,6 +46,8 @@ namespace Ejercicio_1
             
             Console.ReadKey();
 
+            //hacer sobrecarga de operadores alumno==alumno; aula==alumno ; aula=aula+alumno; aula=aula-alumno;
+
             
         }
     }

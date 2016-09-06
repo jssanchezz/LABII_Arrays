@@ -70,7 +70,7 @@ namespace Ejercicio_1
 
             for ( i = 0; i < 10; i++)
             {
-                if (this.listaDeAlumnos[i] != null && this.listaDeAlumnos[i].legajo == unAlumno.legajo)
+                if ((object)this.listaDeAlumnos[i] != null && this.listaDeAlumnos[i] == unAlumno)
                     break;
             }
 

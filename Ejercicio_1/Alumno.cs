@@ -16,6 +16,20 @@ namespace Ejercicio_1
             this.nombre = nomb;
             this.legajo = leg;
         }
+
+        public static bool operator ==(Alumno unAlumno, Alumno otroAlumno)
+        {
+            if (unAlumno.legajo == otroAlumno.legajo)
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(Alumno unAlumno, Alumno otroAlumno)
+        {
+            if (unAlumno.legajo != otroAlumno.legajo)
+                return true;
+            return false;
+        }
     }
 
     

@@ -7,3 +7,6 @@ c:\users\alumno\documents\visual studio 2012\Projects\Clase_7\Ejercicio_1\obj\De
 D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
 D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\obj\Debug\Ejercicio_1.exe
 D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
+D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\obj\Debug\Ejercicio_1.csprojResolveAssemblyReference.cache
+D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+D:\Sanchez Juan\Clase 8\Proyecto\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
