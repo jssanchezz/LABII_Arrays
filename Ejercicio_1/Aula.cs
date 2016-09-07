@@ -30,7 +30,7 @@ namespace Ejercicio_1
         {
             foreach (Alumno alumno in aula.listaDeAlumnos)
             {
-                if (alumno != null)
+                if ((object)alumno != null)
                 {
                     Console.WriteLine(alumno.nombre);
                     Console.WriteLine(alumno.legajo);
@@ -49,7 +49,7 @@ namespace Ejercicio_1
 
             for (contador = 0; contador < 10; contador++)
             {
-                if(this.listaDeAlumnos[contador]==null)
+                if((object)this.listaDeAlumnos[contador]==null)
                     break;
             }
 
@@ -97,7 +97,7 @@ namespace Ejercicio_1
         {
             for (int i = 0; i < 10; i++)
             {
-                if (this.listaDeAlumnos[i] != null && this.listaDeAlumnos[i].legajo == unAlumno.legajo)
+                if ((object)this.listaDeAlumnos[i] != null && this.listaDeAlumnos[i] == unAlumno)
                 {
                     this.listaDeAlumnos[i] = null;
                     break;
