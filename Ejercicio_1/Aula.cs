@@ -109,16 +109,35 @@ namespace Ejercicio_1
         {
             int indice = this.ObtenerIndice(unAlumno);
 
-
-
-            /*for (i = 0; i < 10; i++)
-            {
-                if (this.listaDeAlumnos[i] != null && this.listaDeAlumnos[i].legajo == unAlumno.legajo)
-                    break;
-            }*/
             if (indice == -1)
                 return true;
             return false;
+        }
+
+        static public bool operator ==(Aula elAula, Alumno unAlumno)//Si El aula contiene un alumno especifico
+        {
+            if (elAula.ExisteAlumno(unAlumno))
+                return true;
+            return false;
+        }
+
+        static public bool operator !=(Aula elAula, Alumno unAlumno)
+        {
+            if (elAula.ExisteAlumno(unAlumno))
+                return false;
+            return true;
+        }
+
+        static public Aula operator +(Aula elAula, Alumno unAlumno)//Agrega un alumno al aula
+        {
+            elAula.AgregarAlumno(unAlumno);
+            return elAula;
+        }
+
+        static public Aula operator -(Aula elAula, Alumno unAlumno)//Borra un alumno del aula
+        {
+            elAula.BorrarAlumno(unAlumno);
+            return elAula;
         }
     }
 

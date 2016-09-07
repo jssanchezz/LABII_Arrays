@@ -16,22 +16,22 @@ namespace Ejercicio_1
 
             Alumno primerAlumno;
             primerAlumno = new Alumno("Juan", 123);
-            nuevaAula.AgregarAlumno(primerAlumno);
+            nuevaAula = nuevaAula + primerAlumno;
 
             Alumno segundoAlumno;
             segundoAlumno = new Alumno("Marta", 124);
-            nuevaAula.AgregarAlumno(segundoAlumno);
+            nuevaAula = nuevaAula + segundoAlumno;
 
             Alumno tercerAlumno;
             tercerAlumno = new Alumno("Pepe", 455);
-            nuevaAula.AgregarAlumno(tercerAlumno);
+            nuevaAula = nuevaAula + tercerAlumno;
 
-            
-            nuevaAula.BorrarAlumno(tercerAlumno);
+
+            nuevaAula = nuevaAula - tercerAlumno;
 
             Alumno cuartoAlumno;
             cuartoAlumno = new Alumno("Gaston", 655);
-            nuevaAula.AgregarAlumno(cuartoAlumno);
+            nuevaAula = nuevaAula + cuartoAlumno;
 
             
             nuevaAula.AgregarAlumno(primerAlumno);
@@ -46,7 +46,7 @@ namespace Ejercicio_1
             
             Console.ReadKey();
 
-            //hacer sobrecarga de operadores alumno==alumno; aula==alumno ; aula=aula+alumno; aula=aula-alumno;
+            
 
             
         }
